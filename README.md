@@ -21,31 +21,6 @@ Polycystic Ovary Syndrome (PCOS) is a hormonal disorder common among women of re
 - 💻 **Streamlit Web App** for real-time risk assessment
 - 📷 Visual output from UI (`Streamlit_UI.png`) included
 
----
-
-## 📂 Repository Structure
-📁 PCOSmart/
-│
-├── PCOS_Project1.ipynb # Jupyter notebook: EDA, preprocessing, model building
-├── pcos_appn.py # Streamlit app for PCOS risk prediction
-├── SVC_model.pkl # Trained SVM model (used in Streamlit)
-├── scaler.pkl # Scaler used for preprocessing inputs
-├── map_pcos.xlsx # Encoded/processed dataset (mapped)
-├── Streamlit_UI.png # Screenshot of the live Streamlit UI
-├── README.md # This documentation file
-
-## 🚀 How to Run Locally
-
-1. **Clone the repo**
-```bash
-git clone https://github.com/Suhani0201/PCOSmart.git
-cd PCOSmart
-
-Install dependencies
-pip install -r requirements.txt
-Launch the app
-streamlit run pcos_appn.py
-
 📈 Dataset Info
 Contains clinical and lifestyle features of patients:
 
@@ -63,4 +38,27 @@ Deployment on HuggingFace or Streamlit Cloud
 Use of Explainable AI (XAI) for model transparency
 
 API integration for healthcare applications
+
+## 📂 Repository Structure
+📁 PCOSmart/
+│
+├── PCOS_Project1.ipynb # Jupyter notebook: EDA, preprocessing, model building
+├── pcos_appn.py # Streamlit app for PCOS risk prediction
+├── SVC_model.pkl # Trained SVM model (used in Streamlit)
+├── scaler.pkl # Scaler used for preprocessing inputs
+├── map_pcos.xlsx # Encoded/processed dataset (mapped)
+├── Streamlit_UI.png # Screenshot of the live Streamlit UI
+├── README.md # This documentation file
+
+## 🚀 How to Run Locally
+
+1. **Clone the repo**
+
+git clone https://github.com/Suhani0201/PCOSmart.git
+cd PCOSmart
+
+#Install dependencies
+pip install -r requirements.txt
+#Launch the app
+streamlit run pcos_appn.py
 
