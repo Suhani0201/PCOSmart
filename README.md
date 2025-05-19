@@ -55,10 +55,14 @@ API integration for healthcare applications
 1. **Clone the repo**
 
 git clone https://github.com/Suhani0201/PCOSmart.git
+
 cd PCOSmart
 
 #Install dependencies
+
 pip install -r requirements.txt
+
 #Launch the app
+
 streamlit run pcos_appn.py
 
